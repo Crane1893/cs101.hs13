@@ -20,6 +20,7 @@ public class BasicDrawing {
 
     //redraws the image on the screen so all changes
     //become visible
+    //Hallo Emi
     w.redraw();
   }
 }
