@@ -15,13 +15,17 @@ public class Ex_4 {
     //colors the pixel at position 255,100 in the image
     //with the rgb color 254 (red), 0 (green), 0 (blue)
     
-    int y = 456;
+    int h = 456;
     int vx = 20;
+    int vy = 51;
     
-    for(int t=1;t<=500;t+=20){
-    	w.setPixel(t, y, 255, 0, 0);
-    	System.out.println("t: "+t+" h: "+y+" vy: ");
-    	
+    for(int t=0;t<=500;t+=vx){
+    	w.setPixel(t, 500-h, 0, 0, 0);
+    	System.out.println("t: "+t+" h: "+h+" vy: "+vy);
+    	if(h<=0){break;}
+
+    	h=h-vy;
+    	vy=vy-3;
     }
 
     // Add your code here
