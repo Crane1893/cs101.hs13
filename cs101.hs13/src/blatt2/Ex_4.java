@@ -19,10 +19,10 @@ public class Ex_4 {
     int vx = 20;
     int vy = 51;
     
-    for(int t=0;t<=500;t+=vx){
+    for(int t=0;h>=0;t+=vx){
     	w.setPixel(t, 500-h, 0, 0, 0);
     	System.out.println("t: "+t+" h: "+h+" vy: "+vy);
-    	if(h<=0){break;}
+    	//if(h<=0){break;}
 
     	h=h-vy;
     	vy=vy-3;
