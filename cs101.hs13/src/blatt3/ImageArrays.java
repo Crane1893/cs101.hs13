@@ -9,7 +9,7 @@ public class ImageArrays {
 		ImageWindow sourceWindow= new ImageWindow(500,500);
 		sourceWindow.openWindow("source",0,0);
 			//load the image 
-		sourceWindow.loadImage("blatt_3_a1/horn.jpg");	
+		sourceWindow.loadImage("blatt3/horn.jpg");	
 			//redraw to see the image
 		sourceWindow.redraw();
 			/*  TODO: create an array that is large enough to hold
